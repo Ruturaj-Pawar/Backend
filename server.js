@@ -4,3 +4,6 @@ app.listen(3000);
 app.get("/", (req,res)=>{
     res.send("Deploying 1st backend server or application");
 })
+app.get("/home", (req,res)=>{
+    res.send("This is home page");
+})
